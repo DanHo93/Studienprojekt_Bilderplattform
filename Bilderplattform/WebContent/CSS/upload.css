@@ -1,0 +1,129 @@
+main label{ 
+    min-width: 11em;
+    display: inline-block;
+    text-align: left;
+}
+
+main > div{
+    position: relative;
+    width: calc(50% - 3%);
+    float: left;
+}
+
+main > div form, main > div > div{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#upload{
+    height: 600px;
+}
+
+#vorschauContainer{
+    background-color: #088A08;
+    border: 1px solid #000330;
+    top: 2px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    height: 500px;
+}
+
+#vorschauContainer h2{
+    margin: 5px;    
+}
+
+#vorschauImageContainer{
+    position: relative;
+    width: 90%;
+    height: 85%;
+    max-height: 653px;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+#vorschaubild{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+form div{
+    padding: 0.2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+input{
+    width: 20em;
+}
+
+select{
+    padding: 0.2;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    width: auto;
+}
+
+fieldset{
+    width: auto;
+    background: #088A08;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    border: 1px solid #000330;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+legend{
+    background: #088A08;
+    color: white;
+    padding: 0.2em;
+    border: 1px solid #000330;
+    border-radius: 5px;
+}
+
+input:hover{
+    backface-visibility: #fffff0;
+    border: 2px solid #efe816;
+    
+    /* Schattenverlauf für Boxen:
+    - horizontale Verschiebung
+    - vertikale Verschiebung
+    - Weichzeicheneffekt
+    - Farbangabe:
+        A steht für Alphakanal und
+        steht für die Deckkraft.
+        0.0 = keine Deckkraft
+        1.0 = undurchsichtig
+    Wirkt insbesondere bei Check-
+    boxen + Radiobuttons*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input:required + span::after{
+    color:red; content: " *";
+    font-weight: bolder;
+}
+
+input[type="email"]:valid + span::after{
+    color: green;
+    content: " ✓";
+    font-weight: bold;
+}
+
+span{
+    padding: 0.1em;
+    background: white;
+    border-radius: 50px;
+}
+
+section {
+    float: left;
+}

@@ -1,0 +1,233 @@
+/*#####################################################
+Universales */
+/*
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+}
+
+fieldset{
+    padding-top: 1em;
+    padding-left: 1em;
+    background-color: aliceblue;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+legend{
+    background: white;
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    width: 10em;
+}
+
+input{
+    width: 20em;
+}
+
+/*#####################################################
+Navigationbar*/
+/*#navigationBar{
+    display:inline-flex;
+}
+
+nav{
+    background-color: #3ADF00;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+nav li:first-child{
+    padding-right: 10px;
+    display: flex;
+    border: none;
+    border-right:solid black 1px;
+}
+li.navigation{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    border-right:solid black 1px;
+}
+nav li:last-child{
+    padding-left: 10px;
+    display: flex;
+    border: none;
+}
+
+/*#####################################################
+Header / Footer*/
+/*header, footer{
+    background-color: #3ADF00;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 60px;
+    position: relative;
+}
+
+header img{
+    position: relative;
+    border-radius: 50px;
+    border: none;
+    border-right: 1px solid black;
+    top: -1px;
+    right: -1px;
+    height: 60px;
+    width: 60px;
+}
+
+header .text, footer .text{
+
+    position: absolute;
+    top: 35%;
+}
+
+header .text{
+    left: 10px;
+}
+
+footer .text{
+    right: 10px;
+}
+
+
+
+/*#####################################################
+index.html*/
+/*.samplePicture {
+    margin-left: 15%;
+}
+
+#welcomeSample {
+    display: flex;
+    flex-flow: row;
+}
+
+#sampleWelcome {
+    flex: 1;
+}
+
+#samplePictureDiv {
+    flex: 1;
+}
+
+
+
+/*#####################################################
+registrierung.html*/
+/*form div{
+    padding: 0.2em;
+}
+
+input[type="email"]:valid + span:after{
+    color: green;
+    content: " ✓";
+}
+
+input:required + span:after{
+    color: red; content: " *";
+}
+
+input[type="checkbox"], input[type="radio"]{
+    width: auto;
+}
+
+#formInfo {
+    font-size: 0.5em;
+}
+
+input:hover{
+    background: #fffff0;
+    border: 2px solid #efe816;
+}
+
+button:hover{
+    background: #c9c9c9;
+    border: 2px solid #6c6c6c;
+}
+
+button:active{
+    background: #8f8f8f;
+}
+
+main #registrierung, main #bildHochladen{
+    flex: 1;
+}
+
+label{
+    text-align: left;
+    display: inline-block;
+    min-width: 11em;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+}
+*/
+/*#####################################################
+Slide-Container*/
+
+main{
+    position: relative;
+    top: 44px;
+    left: -7px;
+    margin-left: 50px;
+}
+
+
+#slideContainer{
+    position: relative;
+    margin: 10px;
+    border: 1px solid black;
+    height: 170px;
+    width: 95%;
+    overflow-x: scroll;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: dimgrey;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+#slideContainer img{
+    position: relative;
+    top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#slideContainer img:first-child{
+    margin-left: 20px;
+}
+
+#slideContainer img:last-child{
+    margin-right: 20px;
+    
+}
+
+.slideContainerTitle {
+    color: navy;
+    height: 20px;
+    width: 80px;
+    position: absolute;
+}

@@ -1,0 +1,74 @@
+main label{
+    min-width: 11em;
+    display: inline-block;
+    text-align: left;
+}
+textarea{
+	max-width:530px;
+	width:530px;
+	height:250px
+}	
+form div{
+    padding: 0.2em;
+}
+
+input{
+    width: 20em;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    width: auto;
+}
+
+fieldset{
+    width: 30em;
+    background: #088A08;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    border: 1px solid #000330;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+legend{
+    background: #088A08;
+    color: white;
+    padding: 0.2em;
+    border: 1px solid #000330;
+    border-radius: 5px;
+}
+
+input:hover{
+    backface-visibility: #fffff0;
+    border: 2px solid #efe816;
+    
+    /* Schattenverlauf für Boxen:
+    - horizontale Verschiebung
+    - vertikale Verschiebung
+    - Weichzeicheneffekt
+    - Farbangabe:
+        A steht für Alphakanal und
+        steht für die Deckkraft.
+        0.0 = keine Deckkraft
+        1.0 = undurchsichtig
+    Wirkt insbesondere bei Check-
+    boxen + Radiobuttons*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input:required + span::after{
+    color:red; content: " *";
+    font-weight: bolder;
+}
+
+input[type="email"]:valid + span::after{
+    color: green;
+    content: " ✓";
+    font-weight: bold;
+}
+
+span{
+    padding: 0.1em;
+    background: white;
+    border-radius: 50px;
+}
