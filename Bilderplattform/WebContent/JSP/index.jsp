@@ -6,6 +6,8 @@
     <title>Holy Pictures</title>
     <link rel="icon" href="IMG/icon.ico">
     
+    
+    
     <base href="${pageContext.request.requestURI}" />
     
     <link rel="stylesheet" type="text/css" href="../CSS/overall.css" />
