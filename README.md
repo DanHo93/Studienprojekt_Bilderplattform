@@ -1,0 +1,2 @@
+# Studienprojekt_Bilderplattform
+Gemeinschaftsprojekt mit zwei weiteren Kommilitonen
