@@ -1,2 +1,2 @@
 # Studienprojekt_Bilderplattform
-Gemeinschaftsprojekt mit zwei weiteren Kommilitonen
+Gemeinschaftsprojekt mit Hui und Rene
